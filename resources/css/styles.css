@@ -207,14 +207,15 @@ h1{
 /* ------------------------------------------------ */
 
 .products-section{
-    background-color: rgb(211, 207, 207);
+    background-color: rgb(235, 235, 235);
 }
 
 .product-box{
-    background-color: rgb(211, 207, 207);
+    background-color: rgb(235, 235, 235);
     width: 90%;
     margin-left: 20px;
     height: 350px;
+    border-radius: 20px;
     box-shadow: -2px 0px 15px 0px rgb(16, 12, 53) ;
 }
 
@@ -248,5 +249,107 @@ h1{
 /* -------------------------------------------- */
 /* ------------------TESTIMONAILS------------------ */
 /* ------------------------------------------------ */
+.testimonails-section{
+    background-image: linear-gradient(45deg,rgba(30,66,88,0.8),rgba(45,95,93,0.4)), url("../img/background2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* view height */
+    background-attachment: fixed;
+}
+
+.testimonails-section h2{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+blockquote{
+
+    font-style: italic;
+    line-height: 140%;
+    color:white
+}
+
+cite{
+    margin-top: 10px;
+    display: block;
+    font-weight: 300;
+    
+}
+
+cite img{
+    height: 50px;
+    border: 2px solid darkblue;
+    border-radius: 50%;
+    vertical-align:middle ;
+    margin-right: 10px;
+
+}
+
+/* -------------------------------------------- */
+/* ------------------SPONSOR SECTION------------------ */
+/* ------------------------------------------------ */
+
+.sponsors-section{
+    background-color: white;
+}
+
+.sponsors-section h2{
+    margin-bottom: 100px;
+}
+
+.logo-sponsor{
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.sponsors-showcase{
+    margin-left: 24%;
+}
+
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.2);
+}
+
+
+figcaption{
+    color: rgb(10, 10, 65);
+    font-size: 140%;
+    font-weight: 800;
+    transition: all 0.3s;
+}
+
+
+/* -------------------------------------------- */
+/* ------------------CONTACT SECTION------------------ */
+/* ------------------------------------------------ */
+.contact-section{
+    background-image: linear-gradient(45deg,rgba(30,66,88,0.8),rgba(45,95,93,0.4)), url("../img/background5.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* view height */
+    background-attachment: fixed;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 15px
+}
+
 
 
